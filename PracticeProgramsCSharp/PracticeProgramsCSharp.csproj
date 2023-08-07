@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B931D716-1989-48F7-979C-A121DDC67CE5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>PracticeProgramsCSharp</RootNamespace>
+    <AssemblyName>PracticeProgramsCSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasicPrograms\GivenNumberIsEvenOrOdd.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Array Programs\" />
+    <Folder Include="BitWise Operator Program\" />
+    <Folder Include="ConversionPrograms\" />
+    <Folder Include="Date Time and Year Programs\" />
+    <Folder Include="DSA Programs\" />
+    <Folder Include="Event Handling Programs\" />
+    <Folder Include="Exception Handling Programs\" />
+    <Folder Include="File Handling Programs\" />
+    <Folder Include="GCD LCM HCF Programs\" />
+    <Folder Include="Inheritance Programs\" />
+    <Folder Include="Interface Programs\" />
+    <Folder Include="Linq Programs\" />
+    <Folder Include="Matrix Programs\" />
+    <Folder Include="Misc Programs\" />
+    <Folder Include="Networking Programs\" />
+    <Folder Include="Operator Overloading Programs\" />
+    <Folder Include="Pattern Programs\" />
+    <Folder Include="Program On Numbers\" />
+    <Folder Include="Programs on Data type and operators\" />
+    <Folder Include="Programs on Delegates\" />
+    <Folder Include="Programs on Functions\" />
+    <Folder Include="Programs on games\" />
+    <Folder Include="Programs on Thread\" />
+    <Folder Include="Sorting Programs\" />
+    <Folder Include="Special CSharp Programs\" />
+    <Folder Include="String Programs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
