@@ -76,12 +76,16 @@ namespace PracticeProgramsCSharp
                             BasicPrograms.GreatestAmong2Numbers.logic();
                             break;
 
+                        case 5:
+                            BasicPrograms.SwapTwoNumbers.logic();
+                            break;
 
 
 
 
-                        
-                            
+
+
+
 
                     }
                     break;
