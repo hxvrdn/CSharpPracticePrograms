@@ -92,6 +92,10 @@ namespace PracticeProgramsCSharp
                             BasicPrograms.PrintMultiplesOfXwithinrange.logic();
                             break;
 
+                        case 9:
+                            BasicPrograms.SumOfIndividualDigitsOfANumber.logic();
+                            break;
+
 
 
 
