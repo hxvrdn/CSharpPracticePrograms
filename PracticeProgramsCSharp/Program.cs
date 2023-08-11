@@ -100,6 +100,10 @@ namespace PracticeProgramsCSharp
                             BasicPrograms.SumOfIndividualDigitsOfANumberUsingrecursion.logic();
                             break;
 
+                        case 11:
+                            BasicPrograms.TakeANumberAndReverseIt.logic();
+                            break;
+
 
 
 

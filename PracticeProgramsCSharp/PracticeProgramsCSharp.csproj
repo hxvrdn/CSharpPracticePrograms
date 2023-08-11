@@ -53,6 +53,7 @@
     <Compile Include="BasicPrograms\SumOfIndividualDigitsOfANumberUsingrecursion.cs" />
     <Compile Include="BasicPrograms\SumOfMultiplesOfXAndY.cs" />
     <Compile Include="BasicPrograms\SwapTwoNumbers.cs" />
+    <Compile Include="BasicPrograms\TakeANumberAndReverseIt.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
