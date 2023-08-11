@@ -35,7 +35,7 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("5. Swap 2 Numbers?");
                     Console.WriteLine("6. Check weather Number is Divisible by 2 Or Not");
                     Console.WriteLine("7. Sum Of Multiples of X and Y");
-                    Console.WriteLine("8. Multiples of 17 which are less than 100");
+                    Console.WriteLine("8. Multiples of X Within the Range");
                     Console.WriteLine("9. Sum of individual digits in a number");
                     Console.WriteLine("10. Sum of individual digits in a number using Recursion");
                     Console.WriteLine("11. Get a Number and Reverse it?");
@@ -86,6 +86,10 @@ namespace PracticeProgramsCSharp
 
                         case 7:
                             BasicPrograms.SumOfMultiplesOfXAndY.logic();
+                            break;
+
+                        case 8:
+                            BasicPrograms.PrintMultiplesOfXwithinrange.logic();
                             break;
 
 

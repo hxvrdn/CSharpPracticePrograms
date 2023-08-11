@@ -48,6 +48,7 @@
     <Compile Include="BasicPrograms\GreatestAmong2Numbers.cs" />
     <Compile Include="BasicPrograms\OddNumbersWithinARange.cs" />
     <Compile Include="BasicPrograms\GivenNumberIsEvenOrOdd.cs" />
+    <Compile Include="BasicPrograms\PrintMultiplesOfXwithinrange.cs" />
     <Compile Include="BasicPrograms\SumOfMultiplesOfXAndY.cs" />
     <Compile Include="BasicPrograms\SwapTwoNumbers.cs" />
     <Compile Include="Program.cs" />
