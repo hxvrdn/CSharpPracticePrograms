@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 
 namespace PracticeProgramsCSharp
+ 
 {
     class Program
     {
@@ -28,7 +29,7 @@ namespace PracticeProgramsCSharp
                     Console.Clear();
                     Console.WriteLine("Choose a program! \n -------------------------------------------------- ");
                     Console.WriteLine("1. Check Wether Number entered is even or odd?");
-                    Console.WriteLine("2. Calculate power exponent vale?");
+                    Console.WriteLine("2. Print Odd Numbers within the given Range");
                     Console.WriteLine("3. Check wether the number is positive?");
                     Console.WriteLine("4. Greatest among 2 Numbers?");
                     Console.WriteLine("5. Swap 2 Numbers?");
@@ -54,6 +55,7 @@ namespace PracticeProgramsCSharp
                     int basisChoice = Convert.ToInt32(Console.ReadLine());
                     switch(basisChoice)
                     {
+                        
                         case 0:
                             goto mainMenu;
                             break;
@@ -62,7 +64,13 @@ namespace PracticeProgramsCSharp
                             BasicPrograms.GivenNumberIsEvenOrOdd.logic();
                             break;
 
-                        case 3: 
+                        case 2:
+                            BasicPrograms.OddNumbersWithinARange.logic();
+                            break;
+
+                        case 3:
+                            BasicPrograms.GivenNumberIsPositiveOrNot.logic();
+                            break;
 
 
 
