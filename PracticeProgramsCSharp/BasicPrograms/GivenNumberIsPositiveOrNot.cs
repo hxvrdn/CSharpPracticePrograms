@@ -33,7 +33,7 @@ namespace PracticeProgramsCSharp.BasicPrograms
             {
                 Console.WriteLine("Number Is POSITIVE");
                 Console.WriteLine("Press 1 to ReRun");
-
+                 
             }
             int rerun = Convert.ToInt32(Console.ReadLine());
             if (rerun == 1)
