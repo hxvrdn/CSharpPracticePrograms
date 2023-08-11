@@ -34,7 +34,7 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("4. Greatest among 2 Numbers?");
                     Console.WriteLine("5. Swap 2 Numbers?");
                     Console.WriteLine("6. Check weather Number is Divisible by 2 Or Not");
-                    Console.WriteLine("7. Sum Of Multiples of 3 and 5");
+                    Console.WriteLine("7. Sum Of Multiples of X and Y");
                     Console.WriteLine("8. Multiples of 17 which are less than 100");
                     Console.WriteLine("9. Sum of individual digits in a number");
                     Console.WriteLine("10. Sum of individual digits in a number using Recursion");
@@ -82,6 +82,10 @@ namespace PracticeProgramsCSharp
 
                         case 6:
                             BasicPrograms.DivisibleBy2OrNot.logic();
+                            break;
+
+                        case 7:
+                            BasicPrograms.SumOfMultiplesOfXAndY.logic();
                             break;
 
 
