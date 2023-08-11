@@ -80,6 +80,9 @@ namespace PracticeProgramsCSharp
                             BasicPrograms.SwapTwoNumbers.logic();
                             break;
 
+                        case 6:
+                            BasicPrograms.DivisibleBy2OrNot.logic();
+                            break;
 
 
 

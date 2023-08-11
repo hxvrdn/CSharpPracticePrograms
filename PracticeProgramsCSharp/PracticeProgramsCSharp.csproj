@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicPrograms\DivisibleBy2OrNot.cs" />
     <Compile Include="BasicPrograms\GivenNumberIsPositiveOrNot.cs" />
     <Compile Include="BasicPrograms\GreatestAmong2Numbers.cs" />
     <Compile Include="BasicPrograms\OddNumbersWithinARange.cs" />
