@@ -96,6 +96,10 @@ namespace PracticeProgramsCSharp
                             BasicPrograms.SumOfIndividualDigitsOfANumber.logic();
                             break;
 
+                        case 10:
+                            BasicPrograms.SumOfIndividualDigitsOfANumberUsingrecursion.logic();
+                            break;
+
 
 
 
