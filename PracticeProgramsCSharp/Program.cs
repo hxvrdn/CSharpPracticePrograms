@@ -72,6 +72,10 @@ namespace PracticeProgramsCSharp
                             BasicPrograms.GivenNumberIsPositiveOrNot.logic();
                             break;
 
+                        case 4:
+                            BasicPrograms.GreatestAmong2Numbers.logic();
+                            break;
+
 
 
 

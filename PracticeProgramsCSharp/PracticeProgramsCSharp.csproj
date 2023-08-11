@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BasicPrograms\GivenNumberIsPositiveOrNot.cs" />
+    <Compile Include="BasicPrograms\GreatestAmong2Numbers.cs" />
     <Compile Include="BasicPrograms\OddNumbersWithinARange.cs" />
     <Compile Include="BasicPrograms\GivenNumberIsEvenOrOdd.cs" />
     <Compile Include="Program.cs" />
