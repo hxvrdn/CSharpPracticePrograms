@@ -49,6 +49,7 @@
     <Compile Include="BasicPrograms\OddNumbersWithinARange.cs" />
     <Compile Include="BasicPrograms\GivenNumberIsEvenOrOdd.cs" />
     <Compile Include="BasicPrograms\PrintMultiplesOfXwithinrange.cs" />
+    <Compile Include="BasicPrograms\ReverseAnumberAndCheckIfItIsPallindrome.cs" />
     <Compile Include="BasicPrograms\SumOfIndividualDigitsOfANumber.cs" />
     <Compile Include="BasicPrograms\SumOfIndividualDigitsOfANumberUsingrecursion.cs" />
     <Compile Include="BasicPrograms\SumOfMultiplesOfXAndY.cs" />

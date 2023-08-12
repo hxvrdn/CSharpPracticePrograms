@@ -104,6 +104,10 @@ namespace PracticeProgramsCSharp
                             BasicPrograms.TakeANumberAndReverseIt.logic();
                             break;
 
+                        case 12:
+                            BasicPrograms.ReverseAnumberAndCheckIfItIsPallindrome.logic();
+                            break;
+
 
 
 
