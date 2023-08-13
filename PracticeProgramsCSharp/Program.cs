@@ -108,6 +108,10 @@ namespace PracticeProgramsCSharp
                             BasicPrograms.ReverseAnumberAndCheckIfItIsPallindrome.logic();
                             break;
 
+                        case 13:
+                            BasicPrograms.SumOfTwoBinarNumbers.logic();
+                            break;
+
 
 
 
