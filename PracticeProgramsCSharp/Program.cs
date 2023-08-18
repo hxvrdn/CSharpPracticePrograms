@@ -134,6 +134,11 @@ namespace PracticeProgramsCSharp
                             BasicPrograms.BinaryEquivalentOfAInteger.logic();
                             break;
 
+                        case 19:
+                            BasicPrograms.MultiplicationTable.logic();
+                            break;
+
+
 
 
                     }
