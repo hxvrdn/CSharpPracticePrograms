@@ -130,6 +130,10 @@ namespace PracticeProgramsCSharp
                             BasicPrograms.DivisionOfExponentsOfSameBase.logic();
                             break;
 
+                        case 18:
+                            BasicPrograms.BinaryEquivalentOfAInteger.logic();
+                            break;
+
 
 
                     }
