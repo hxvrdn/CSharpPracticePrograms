@@ -47,6 +47,7 @@
     <Compile Include="BasicPrograms\DivisibleBy2OrNot.cs" />
     <Compile Include="BasicPrograms\GivenNumberIsPositiveOrNot.cs" />
     <Compile Include="BasicPrograms\GreatestAmong2Numbers.cs" />
+    <Compile Include="BasicPrograms\MultiplicationOfExponentsOfSameBase.cs" />
     <Compile Include="BasicPrograms\OddNumbersWithinARange.cs" />
     <Compile Include="BasicPrograms\GivenNumberIsEvenOrOdd.cs" />
     <Compile Include="BasicPrograms\PrintMultiplesOfXwithinrange.cs" />

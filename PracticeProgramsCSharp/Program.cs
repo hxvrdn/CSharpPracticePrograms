@@ -122,6 +122,10 @@ namespace PracticeProgramsCSharp
                             BasicPrograms.ArithmeticOperations.logic();
                             break;
 
+                        case 16:
+                            BasicPrograms.MultiplicationOfExponentsOfSameBase.logic();
+                            break;
+
 
 
                     }
