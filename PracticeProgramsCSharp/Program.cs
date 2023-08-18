@@ -21,7 +21,8 @@ namespace PracticeProgramsCSharp
             Console.Clear();
             Console.WriteLine(" W E L C O M E !");
             Console.WriteLine("Program Scope? : ");
-            Console.Write("1. Basic Programs \n");
+            Console.WriteLine("1. Basic Programs ");
+            Console.WriteLine("2. Data Type & Operation Programs");
 
             int choice = Convert.ToInt32(Console.ReadLine());
 
