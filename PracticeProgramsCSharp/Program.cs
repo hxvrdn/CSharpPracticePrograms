@@ -8,10 +8,14 @@ using System.Threading.Tasks;
 namespace PracticeProgramsCSharp
  
 {
-    class Program
+   public  class Program
     {
         static void Main(string[] args)
 
+        {
+            MainMenu();
+        }
+        public static void MainMenu()
         {
         mainMenu:
             Console.Clear();
@@ -23,8 +27,8 @@ namespace PracticeProgramsCSharp
 
 
 
-            switch(choice)
-            { 
+            switch (choice)
+            {
                 case 1:
                     Console.Clear();
                     Console.WriteLine("Choose a program! \n -------------------------------------------------- ");
@@ -49,13 +53,13 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("19. Multiplication Table");
                     Console.WriteLine("20. Convert Character Casing to current opposite");
                     Console.WriteLine("0 for Main Menu");
-                    
-                    
+
+
 
                     int basisChoice = Convert.ToInt32(Console.ReadLine());
-                    switch(basisChoice)
+                    switch (basisChoice)
                     {
-                        
+
                         case 0:
                             goto mainMenu;
                             break;
@@ -114,7 +118,9 @@ namespace PracticeProgramsCSharp
 
 
 
-
+                        case 15:
+                            BasicPrograms.ArithmeticOperations.logic();
+                            break;
 
 
 
@@ -124,10 +130,7 @@ namespace PracticeProgramsCSharp
 
 
 
-
             }
-
-
         }
     }
 }

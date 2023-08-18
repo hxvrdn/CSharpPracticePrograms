@@ -27,16 +27,22 @@ namespace PracticeProgramsCSharp.BasicPrograms
 
             else {
                 Console.WriteLine("The Number You Entered is ODD");
-            Console.WriteLine("To ReRun the program Enter 1");
-            rerun = Convert.ToInt32(Console.ReadLine());
+            
+             
             }
 
 
 
+            Console.WriteLine("\n Press 1 To rerun the program \n Press 0 to Main Menu");
+            rerun = 0;
+            rerun = Convert.ToInt32(Console.ReadLine());
 
             if (rerun == 1)
                 goto begin;
-             
+            else
+            {
+                Program.MainMenu();
+            }
         }
     }
 }

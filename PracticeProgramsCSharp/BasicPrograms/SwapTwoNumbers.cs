@@ -26,15 +26,17 @@ namespace PracticeProgramsCSharp.BasicPrograms
             num2 = temp;
             Console.WriteLine();
             Console.WriteLine("After Swapping \n Num1 = {0} and Num2 = {1}", num1, num2);
-            Console.WriteLine("To rerun the program enter 1");
+
+            Console.WriteLine("\n Press 1 To rerun the program \n Press 0 to Main Menu");
             int rerun = 0;
             rerun = Convert.ToInt32(Console.ReadLine());
 
-            if(rerun==1)
-            {
+            if (rerun == 1)
                 goto start;
+            else
+            {
+                Program.MainMenu();
             }
-
         }
 
     }

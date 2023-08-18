@@ -20,13 +20,18 @@ namespace PracticeProgramsCSharp.BasicPrograms
                 Console.Write(num%10);
                 num = num / 10;
             }
-            
-            Console.WriteLine("\n Press 1 To rerun the program");
+
+
+            Console.WriteLine("\n Press 1 To rerun the program \n Press 0 to Main Menu");
             int rerun = 0;
             rerun = Convert.ToInt32(Console.ReadLine());
 
             if (rerun == 1)
                 goto start;
+            else
+            {
+                Program.MainMenu();
+            }
         }
     }
 }
