@@ -126,6 +126,10 @@ namespace PracticeProgramsCSharp
                             BasicPrograms.MultiplicationOfExponentsOfSameBase.logic();
                             break;
 
+                        case 17:
+                            BasicPrograms.DivisionOfExponentsOfSameBase.logic();
+                            break;
+
 
 
                     }
