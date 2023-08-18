@@ -33,7 +33,16 @@ namespace PracticeProgramsCSharp.BasicPrograms
             Console.WriteLine("Sum of two binary numbers: ");
             while (i >= 0)
                 Console.Write("{0}", sum[i--]);
-            Console.ReadLine();
+            Console.WriteLine("\n Press 1 To rerun the program \n Press 0 to Main Menu");
+            int rerun = 0;
+            rerun = Convert.ToInt32(Console.ReadLine());
+
+            if (rerun == 1)
+                goto start;
+            else
+            {
+                Program.MainMenu();
+            }
         }
 
 

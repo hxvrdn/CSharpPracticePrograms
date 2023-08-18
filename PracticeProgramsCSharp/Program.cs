@@ -116,6 +116,9 @@ namespace PracticeProgramsCSharp
                             BasicPrograms.SumOfTwoBinarNumbers.logic();
                             break;
 
+                        case 14:
+                            BasicPrograms.MultiplicationOfTwoBinaryNumbers.logic();
+                            break;
 
 
                         case 15:
