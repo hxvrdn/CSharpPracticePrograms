@@ -138,6 +138,10 @@ namespace PracticeProgramsCSharp
                             BasicPrograms.MultiplicationTable.logic();
                             break;
 
+                        case 20:
+                            BasicPrograms.ConverCharacterCasingToOpposite.logic();
+                            break;
+
 
 
 

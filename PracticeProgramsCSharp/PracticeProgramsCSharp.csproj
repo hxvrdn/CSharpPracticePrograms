@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="BasicPrograms\ArithmeticOperations.cs" />
     <Compile Include="BasicPrograms\BinaryEquivalentOfAInteger.cs" />
+    <Compile Include="BasicPrograms\ConverCharacterCasingToOpposite.cs" />
     <Compile Include="BasicPrograms\DivisibleBy2OrNot.cs" />
     <Compile Include="BasicPrograms\DivisionOfExponentsOfSameBase.cs" />
     <Compile Include="BasicPrograms\GivenNumberIsPositiveOrNot.cs" />
