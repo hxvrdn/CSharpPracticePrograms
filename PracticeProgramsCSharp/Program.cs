@@ -171,6 +171,10 @@ namespace PracticeProgramsCSharp
                             Programs_on_Data_type_and_operators.MinimumRangeOfValuesOfDataTypes.logic();
                             break;
 
+                        case 2:
+                            Programs_on_Data_type_and_operators.MaximumRangeOfDataTypes.logic();
+                            break;
+
 
                     }
 
