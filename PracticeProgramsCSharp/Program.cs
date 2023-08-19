@@ -158,8 +158,8 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("Choose a program! \n -------------------------------------------------- ");
                     Console.WriteLine("1.Minimum Values Of DataTypes.");
                     Console.WriteLine("2.Maximum Values Of DataTypes.");
-                    Console.WriteLine("3. Arithmetic Operations.  ");
-                    Console.WriteLine("4. ");
+                    Console.WriteLine("3.Arithmetic Operations.  ");
+                    Console.WriteLine("4.Conditional Logical Operator ");
                     Console.WriteLine("5. ");
                     Console.WriteLine("6. ");
 
@@ -178,6 +178,11 @@ namespace PracticeProgramsCSharp
                         case 3:
                             Programs_on_Data_type_and_operators.ArithmeticOperations.logic();
                             break;
+
+                        case 4:
+                            Programs_on_Data_type_and_operators.ConditionalLogicOperator.logic();
+                            break;
+
 
 
                     }

@@ -65,6 +65,7 @@
     <Compile Include="BasicPrograms\TakeANumberAndReverseIt.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Programs on Data type and operators\ArithmeticOperations.cs" />
+    <Compile Include="Programs on Data type and operators\ConditionalLogicOperator.cs" />
     <Compile Include="Programs on Data type and operators\MaximumRangeOfDataTypes.cs" />
     <Compile Include="Programs on Data type and operators\MinimumRangeOfValuesOfDataTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
