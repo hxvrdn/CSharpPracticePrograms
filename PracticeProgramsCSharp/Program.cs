@@ -161,7 +161,7 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("3.Arithmetic Operations.  ");
                     Console.WriteLine("4.Conditional Logical Operator ");
                     Console.WriteLine("5.Boxing Operation ");
-                    Console.WriteLine("6. ");
+                    Console.WriteLine("6.Unboxing Operation");
 
                     int datatypeChoice = Convert.ToInt32(Console.ReadLine());
 
@@ -187,6 +187,9 @@ namespace PracticeProgramsCSharp
                             Programs_on_Data_type_and_operators.BoxingOperations.logic();
                             break;
 
+                        case 6:
+                            Programs_on_Data_type_and_operators.UnboxingOperations.logic();
+                            break;
 
 
                     }
