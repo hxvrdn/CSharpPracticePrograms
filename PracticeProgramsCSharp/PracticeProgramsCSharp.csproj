@@ -64,6 +64,7 @@
     <Compile Include="BasicPrograms\SwapTwoNumbers.cs" />
     <Compile Include="BasicPrograms\TakeANumberAndReverseIt.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Programs on Data type and operators\MinimumRangeOfValuesOfDataTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -88,7 +89,6 @@
     <Folder Include="Operator Overloading Programs\" />
     <Folder Include="Pattern Programs\" />
     <Folder Include="Program On Numbers\" />
-    <Folder Include="Programs on Data type and operators\" />
     <Folder Include="Programs on Delegates\" />
     <Folder Include="Programs on Functions\" />
     <Folder Include="Programs on games\" />

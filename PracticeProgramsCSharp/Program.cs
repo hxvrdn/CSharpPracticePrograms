@@ -153,6 +153,30 @@ namespace PracticeProgramsCSharp
                     break;
 
 
+                case 2:
+                    Console.Clear();
+                    Console.WriteLine("Choose a program! \n -------------------------------------------------- ");
+                    Console.WriteLine("1.Minimum Values Of DataTypes.");
+                    Console.WriteLine("2.Maximum Values Of DataTypes.");
+                    Console.WriteLine("3.  ");
+                    Console.WriteLine("4. ");
+                    Console.WriteLine("5. ");
+                    Console.WriteLine("6. ");
+
+                    int datatypeChoice = Convert.ToInt32(Console.ReadLine());
+
+                    switch(datatypeChoice)
+                    {
+                        case 1:
+                            Programs_on_Data_type_and_operators.MinimumRangeOfValuesOfDataTypes.logic();
+                            break;
+
+
+                    }
+
+                    break;
+
+
 
 
             }
