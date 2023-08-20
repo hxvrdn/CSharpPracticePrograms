@@ -23,6 +23,7 @@ namespace PracticeProgramsCSharp
             Console.WriteLine("Program Scope? : ");
             Console.WriteLine("1. Basic Programs ");
             Console.WriteLine("2. Data Type & Operation Programs");
+            Console.WriteLine("3. Programs On Numbers");
 
             int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -196,9 +197,21 @@ namespace PracticeProgramsCSharp
 
                     break;
 
+                case 3:
+                    Console.Clear();
+                    Console.WriteLine("1. Fibonacci Series");
 
 
+                    int numprogChoice = Convert.ToInt32(Console.ReadLine());
+                    switch(numprogChoice)
+                    {
+                        case 1:
+                            Program_On_Numbers.FibonacciSeries.logic();
+                            break;
 
+
+                    }
+                    break;
             }
         }
     }
