@@ -63,6 +63,7 @@
     <Compile Include="BasicPrograms\SumOfTwoBinarNumbers.cs" />
     <Compile Include="BasicPrograms\SwapTwoNumbers.cs" />
     <Compile Include="BasicPrograms\TakeANumberAndReverseIt.cs" />
+    <Compile Include="Program On Numbers\FactorialOfAGivenNumber.cs" />
     <Compile Include="Program On Numbers\FibonacciSeries.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Programs on Data type and operators\ArithmeticOperations.cs" />

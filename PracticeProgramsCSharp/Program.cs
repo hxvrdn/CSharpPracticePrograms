@@ -200,6 +200,8 @@ namespace PracticeProgramsCSharp
                 case 3:
                     Console.Clear();
                     Console.WriteLine("1. Fibonacci Series");
+                    Console.WriteLine("2. Factorial of A number");
+
 
 
                     int numprogChoice = Convert.ToInt32(Console.ReadLine());
@@ -209,6 +211,9 @@ namespace PracticeProgramsCSharp
                             Program_On_Numbers.FibonacciSeries.logic();
                             break;
 
+                        case 2:
+                            Program_On_Numbers.FactorialOfAGivenNumber.logic();
+                            break;
 
                     }
                     break;
