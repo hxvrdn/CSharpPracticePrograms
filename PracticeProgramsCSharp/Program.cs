@@ -201,6 +201,7 @@ namespace PracticeProgramsCSharp
                     Console.Clear();
                     Console.WriteLine("1. Fibonacci Series");
                     Console.WriteLine("2. Factorial of A number");
+                    Console.WriteLine("3. Prime Numbers in a range");
 
 
 
@@ -213,6 +214,10 @@ namespace PracticeProgramsCSharp
 
                         case 2:
                             Program_On_Numbers.FactorialOfAGivenNumber.logic();
+                            break;
+
+                        case 3:
+                            Program_On_Numbers.PrimeNumber.logic();
                             break;
 
                     }
