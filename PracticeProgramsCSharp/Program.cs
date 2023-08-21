@@ -289,6 +289,7 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("3. Date In Various Formats");
                     Console.WriteLine("4. Add Two dates");
                     Console.WriteLine("5. Compare two Dates");
+                    Console.WriteLine("6. Check For Leap Year");
                     int DateTimeYearChoice = Convert.ToInt32(Console.ReadLine());
 
                     switch(DateTimeYearChoice)
@@ -311,6 +312,10 @@ namespace PracticeProgramsCSharp
 
                         case 5:
                             Date_Time_and_Year_Programs.CompareTwodates.logic();
+                            break;
+
+                        case 6:
+                            Date_Time_and_Year_Programs.LeapYearProgram.logic();
                             break;
 
 
