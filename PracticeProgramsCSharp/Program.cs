@@ -288,6 +288,7 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("2. Get Universal Time");
                     Console.WriteLine("3. Date In Various Formats");
                     Console.WriteLine("4. Add Two dates");
+                    Console.WriteLine("5. Compare two Dates");
                     int DateTimeYearChoice = Convert.ToInt32(Console.ReadLine());
 
                     switch(DateTimeYearChoice)
@@ -306,6 +307,10 @@ namespace PracticeProgramsCSharp
 
                         case 4:
                             Date_Time_and_Year_Programs.AddTwoDates.logic();
+                            break;
+
+                        case 5:
+                            Date_Time_and_Year_Programs.CompareTwodates.logic();
                             break;
 
 

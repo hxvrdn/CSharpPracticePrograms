@@ -64,6 +64,7 @@
     <Compile Include="BasicPrograms\SwapTwoNumbers.cs" />
     <Compile Include="BasicPrograms\TakeANumberAndReverseIt.cs" />
     <Compile Include="Date Time and Year Programs\AddTwoDates.cs" />
+    <Compile Include="Date Time and Year Programs\CompareTwodates.cs" />
     <Compile Include="Date Time and Year Programs\DatesInVariousFormats.cs" />
     <Compile Include="Date Time and Year Programs\GetTheLocalTime.cs" />
     <Compile Include="Date Time and Year Programs\GettheUniversalTime.cs" />
