@@ -207,6 +207,8 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("6. Check for Armstrong Number");
                     Console.WriteLine("7. Print Armstrong Numbers");
                     Console.WriteLine("8. Sum of N Numbers");
+                    Console.WriteLine("9. Print Natural Numbers in a Range");
+
 
 
 
@@ -246,6 +248,10 @@ namespace PracticeProgramsCSharp
 
                         case 8:
                             Program_On_Numbers.SumOfNNumbers.logic();
+                            break;
+
+                        case 9:
+                            Program_On_Numbers.PrintNaturalNumbersInRange.logic();
                             break;
                     }
                     break;

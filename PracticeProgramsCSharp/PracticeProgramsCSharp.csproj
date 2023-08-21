@@ -70,6 +70,7 @@
     <Compile Include="Program On Numbers\PerfecctNumber.cs" />
     <Compile Include="Program On Numbers\PrimeNumber.cs" />
     <Compile Include="Program On Numbers\PrintArmstrongNumbersInARange.cs" />
+    <Compile Include="Program On Numbers\PrintNaturalNumbersInRange.cs" />
     <Compile Include="Program On Numbers\SumOfNNumbers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Programs on Data type and operators\ArithmeticOperations.cs" />
