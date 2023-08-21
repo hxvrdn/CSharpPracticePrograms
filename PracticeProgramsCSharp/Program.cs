@@ -25,6 +25,8 @@ namespace PracticeProgramsCSharp
             Console.WriteLine("2. Data Type & Operation Programs");
             Console.WriteLine("3. Programs On Numbers");
             Console.WriteLine("4. Date Time And Year Programs");
+            Console.WriteLine("5. Special Programs");
+
 
             int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -167,7 +169,7 @@ namespace PracticeProgramsCSharp
 
                     int datatypeChoice = Convert.ToInt32(Console.ReadLine());
 
-                    switch(datatypeChoice)
+                    switch (datatypeChoice)
                     {
                         case 1:
                             Programs_on_Data_type_and_operators.MinimumRangeOfValuesOfDataTypes.logic();
@@ -215,9 +217,9 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("13. Square Root of A number");
                     Console.WriteLine("14. Cube root of A number");
                     Console.WriteLine("15. Reverse A number");
-               
+
                     int numprogChoice = Convert.ToInt32(Console.ReadLine());
-                    switch(numprogChoice)
+                    switch (numprogChoice)
                     {
                         case 1:
                             Program_On_Numbers.FibonacciSeries.logic();
@@ -296,7 +298,7 @@ namespace PracticeProgramsCSharp
 
                     int DateTimeYearChoice = Convert.ToInt32(Console.ReadLine());
 
-                    switch(DateTimeYearChoice)
+                    switch (DateTimeYearChoice)
                     {
                         case 1:
                             Date_Time_and_Year_Programs.GetTheLocalTime.logic();
@@ -333,7 +335,21 @@ namespace PracticeProgramsCSharp
                     }
 
                     break;
-                   
+
+                case 5:
+                    Console.Clear();
+                    Console.WriteLine("1. Print without Print Function");
+                    int SpecChoice = Convert.ToInt32(Console.ReadLine());
+
+                    switch (SpecChoice)
+                    {
+                        case 1:
+                            Special_CSharp_Programs.PrintWithoutPrintfunction.logic();
+                            break;
+
+
+                    }
+                    break;
             }
         }
     }

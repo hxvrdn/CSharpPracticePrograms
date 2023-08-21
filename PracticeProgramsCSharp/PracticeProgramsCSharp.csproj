@@ -94,6 +94,7 @@
     <Compile Include="Programs on Data type and operators\MinimumRangeOfValuesOfDataTypes.cs" />
     <Compile Include="Programs on Data type and operators\UnboxingOperations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Special CSharp Programs\PrintWithoutPrintfunction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -120,7 +121,6 @@
     <Folder Include="Programs on games\" />
     <Folder Include="Programs on Thread\" />
     <Folder Include="Sorting Programs\" />
-    <Folder Include="Special CSharp Programs\" />
     <Folder Include="String Programs\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
