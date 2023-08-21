@@ -202,6 +202,7 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("1. Fibonacci Series");
                     Console.WriteLine("2. Factorial of A number");
                     Console.WriteLine("3. Prime Numbers in a range");
+                    Console.WriteLine("4. Largest Prime Factor");
 
 
 
@@ -218,6 +219,10 @@ namespace PracticeProgramsCSharp
 
                         case 3:
                             Program_On_Numbers.PrimeNumber.logic();
+                            break;
+
+                        case 4:
+                            Program_On_Numbers.LargestPrimeFactor.logic();
                             break;
 
                     }
