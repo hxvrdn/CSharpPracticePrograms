@@ -205,6 +205,8 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("4. Largest Prime Factor");
                     Console.WriteLine("5. Check for Perfect Number");
                     Console.WriteLine("6. Check for Armstrong Number");
+                    Console.WriteLine("7. Print Armstrong Numbers");
+
 
 
 
@@ -235,6 +237,10 @@ namespace PracticeProgramsCSharp
 
                         case 6:
                             Program_On_Numbers.ArmstrongNumber.logic();
+                            break;
+
+                        case 7:
+                            Program_On_Numbers.PrintArmstrongNumbersInARange.logic();
                             break;
 
                     }
