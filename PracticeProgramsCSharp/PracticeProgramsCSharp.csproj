@@ -65,6 +65,7 @@
     <Compile Include="BasicPrograms\TakeANumberAndReverseIt.cs" />
     <Compile Include="Program On Numbers\ArmstrongNumber.cs" />
     <Compile Include="Program On Numbers\FactorialOfAGivenNumber.cs" />
+    <Compile Include="Program On Numbers\FactorsOfAGivenNumber.cs" />
     <Compile Include="Program On Numbers\FibonacciSeries.cs" />
     <Compile Include="Program On Numbers\LargestPrimeFactor.cs" />
     <Compile Include="Program On Numbers\PerfecctNumber.cs" />

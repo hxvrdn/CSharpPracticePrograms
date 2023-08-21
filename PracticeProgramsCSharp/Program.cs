@@ -208,6 +208,7 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("7. Print Armstrong Numbers");
                     Console.WriteLine("8. Sum of N Numbers");
                     Console.WriteLine("9. Print Natural Numbers in a Range");
+                    Console.WriteLine("10. Factors of a givrn number");
 
 
 
@@ -252,6 +253,10 @@ namespace PracticeProgramsCSharp
 
                         case 9:
                             Program_On_Numbers.PrintNaturalNumbersInRange.logic();
+                            break;
+
+                        case 10:
+                            Program_On_Numbers.FactorsOfAGivenNumber.logic();
                             break;
                     }
                     break;
