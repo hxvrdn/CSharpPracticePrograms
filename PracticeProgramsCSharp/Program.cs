@@ -206,6 +206,7 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("5. Check for Perfect Number");
                     Console.WriteLine("6. Check for Armstrong Number");
                     Console.WriteLine("7. Print Armstrong Numbers");
+                    Console.WriteLine("8. Sum of N Numbers");
 
 
 
@@ -243,6 +244,9 @@ namespace PracticeProgramsCSharp
                             Program_On_Numbers.PrintArmstrongNumbersInARange.logic();
                             break;
 
+                        case 8:
+                            Program_On_Numbers.SumOfNNumbers.logic();
+                            break;
                     }
                     break;
             }
