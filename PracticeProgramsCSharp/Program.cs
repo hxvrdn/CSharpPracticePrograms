@@ -203,6 +203,10 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("2. Factorial of A number");
                     Console.WriteLine("3. Prime Numbers in a range");
                     Console.WriteLine("4. Largest Prime Factor");
+                    Console.WriteLine("5. Check for Perfect Number");
+                    Console.WriteLine("6. Check for Armstrong Number");
+
+
 
 
 
@@ -227,6 +231,10 @@ namespace PracticeProgramsCSharp
 
                         case 5:
                             Program_On_Numbers.PerfecctNumber.logic();
+                            break;
+
+                        case 6:
+                            Program_On_Numbers.ArmstrongNumber.logic();
                             break;
 
                     }
