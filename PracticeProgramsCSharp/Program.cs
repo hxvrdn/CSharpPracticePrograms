@@ -291,6 +291,8 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("5. Compare two Dates");
                     Console.WriteLine("6. Check For Leap Year");
                     Console.WriteLine("7. Convert Days To years and Weeks");
+                    Console.WriteLine("8. Get The Daylight Saving Information");
+
 
                     int DateTimeYearChoice = Convert.ToInt32(Console.ReadLine());
 
@@ -322,6 +324,10 @@ namespace PracticeProgramsCSharp
 
                         case 7:
                             Date_Time_and_Year_Programs.ConvertDaysToYearsMonthsWeek.logic();
+                            break;
+
+                        case 8:
+                            Date_Time_and_Year_Programs.GetTheDaylightSavingInformation.logic();
                             break;
 
                     }
