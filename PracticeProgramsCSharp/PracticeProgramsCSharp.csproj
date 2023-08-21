@@ -95,6 +95,7 @@
     <Compile Include="Programs on Data type and operators\UnboxingOperations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Special CSharp Programs\ATMProgram.cs" />
+    <Compile Include="Special CSharp Programs\GetMyIPAddress.cs" />
     <Compile Include="Special CSharp Programs\PrintWithoutPrintfunction.cs" />
   </ItemGroup>
   <ItemGroup>

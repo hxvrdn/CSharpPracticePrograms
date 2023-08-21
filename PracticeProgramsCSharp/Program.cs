@@ -340,6 +340,8 @@ namespace PracticeProgramsCSharp
                     Console.Clear();
                     Console.WriteLine("1. Print without Print Function");
                     Console.WriteLine("2. ATM Prompt");
+                    Console.WriteLine("2. My IP Address.");
+
 
                     int SpecChoice = Convert.ToInt32(Console.ReadLine());
 
@@ -351,6 +353,11 @@ namespace PracticeProgramsCSharp
 
                         case 2:
                             Special_CSharp_Programs.ATMProgram.logic();
+                            break;
+
+
+                        case 3:
+                            Special_CSharp_Programs.GetMyIPAddress.logic();
                             break;
 
 
