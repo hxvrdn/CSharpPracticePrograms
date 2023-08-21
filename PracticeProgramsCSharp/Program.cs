@@ -290,6 +290,8 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("4. Add Two dates");
                     Console.WriteLine("5. Compare two Dates");
                     Console.WriteLine("6. Check For Leap Year");
+                    Console.WriteLine("7. Convert Days To years and Weeks");
+
                     int DateTimeYearChoice = Convert.ToInt32(Console.ReadLine());
 
                     switch(DateTimeYearChoice)
@@ -318,6 +320,9 @@ namespace PracticeProgramsCSharp
                             Date_Time_and_Year_Programs.LeapYearProgram.logic();
                             break;
 
+                        case 7:
+                            Date_Time_and_Year_Programs.ConvertDaysToYearsMonthsWeek.logic();
+                            break;
 
                     }
 
