@@ -210,6 +210,8 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("9. Print Natural Numbers in a Range");
                     Console.WriteLine("10. Factors of a given number");
                     Console.WriteLine("11. Absolute of a given number");
+                    Console.WriteLine("12. Check if The numbers are amicable");
+
 
 
 
@@ -262,6 +264,10 @@ namespace PracticeProgramsCSharp
 
                         case 11:
                             Program_On_Numbers.AbsoluteValueOfANumber.logic();
+                            break;
+
+                        case 12:
+                            Program_On_Numbers.AmicableNumbers.logic();
                             break;
                     }
                     break;
