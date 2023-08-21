@@ -339,12 +339,18 @@ namespace PracticeProgramsCSharp
                 case 5:
                     Console.Clear();
                     Console.WriteLine("1. Print without Print Function");
+                    Console.WriteLine("2. ATM Prompt");
+
                     int SpecChoice = Convert.ToInt32(Console.ReadLine());
 
                     switch (SpecChoice)
                     {
                         case 1:
                             Special_CSharp_Programs.PrintWithoutPrintfunction.logic();
+                            break;
+
+                        case 2:
+                            Special_CSharp_Programs.ATMProgram.logic();
                             break;
 
 
