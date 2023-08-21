@@ -66,6 +66,7 @@
     <Compile Include="Program On Numbers\FactorialOfAGivenNumber.cs" />
     <Compile Include="Program On Numbers\FibonacciSeries.cs" />
     <Compile Include="Program On Numbers\LargestPrimeFactor.cs" />
+    <Compile Include="Program On Numbers\PerfecctNumber.cs" />
     <Compile Include="Program On Numbers\PrimeNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Programs on Data type and operators\ArithmeticOperations.cs" />

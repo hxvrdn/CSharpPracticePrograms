@@ -225,6 +225,10 @@ namespace PracticeProgramsCSharp
                             Program_On_Numbers.LargestPrimeFactor.logic();
                             break;
 
+                        case 5:
+                            Program_On_Numbers.PerfecctNumber.logic();
+                            break;
+
                     }
                     break;
             }
