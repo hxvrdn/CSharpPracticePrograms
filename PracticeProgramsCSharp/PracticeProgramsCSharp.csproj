@@ -66,6 +66,7 @@
     <Compile Include="Program On Numbers\AbsoluteValueOfANumber.cs" />
     <Compile Include="Program On Numbers\AmicableNumbers.cs" />
     <Compile Include="Program On Numbers\ArmstrongNumber.cs" />
+    <Compile Include="Program On Numbers\CubeRootOfANumber.cs" />
     <Compile Include="Program On Numbers\FactorialOfAGivenNumber.cs" />
     <Compile Include="Program On Numbers\FactorsOfAGivenNumber.cs" />
     <Compile Include="Program On Numbers\FibonacciSeries.cs" />
@@ -74,7 +75,9 @@
     <Compile Include="Program On Numbers\PrimeNumber.cs" />
     <Compile Include="Program On Numbers\PrintArmstrongNumbersInARange.cs" />
     <Compile Include="Program On Numbers\PrintNaturalNumbersInRange.cs" />
+    <Compile Include="Program On Numbers\SquareRootOfANumber.cs" />
     <Compile Include="Program On Numbers\SumOfNNumbers.cs" />
+    <Compile Include="Program On Numbers\TakeANumberAndReverseIt.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Programs on Data type and operators\ArithmeticOperations.cs" />
     <Compile Include="Programs on Data type and operators\BoxingOperations.cs" />

@@ -211,6 +211,13 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("10. Factors of a given number");
                     Console.WriteLine("11. Absolute of a given number");
                     Console.WriteLine("12. Check if The numbers are amicable");
+                    Console.WriteLine("13. Square Root of A number");
+                    Console.WriteLine("14. Cube root of A number");
+                    Console.WriteLine("15. Reverse A number");
+                    
+
+
+
 
 
 
@@ -269,6 +276,22 @@ namespace PracticeProgramsCSharp
                         case 12:
                             Program_On_Numbers.AmicableNumbers.logic();
                             break;
+
+                        case 13:
+                            Program_On_Numbers.SquareRootOfANumber.logic();
+                            break;
+
+                        case 14:
+                            Program_On_Numbers.CubeRootOfANumber.logic();
+                            break;
+
+                        case 15:
+                            Program_On_Numbers.TakeANumberAndReverseIt.logic();
+                            break;
+
+
+
+
                     }
                     break;
             }
