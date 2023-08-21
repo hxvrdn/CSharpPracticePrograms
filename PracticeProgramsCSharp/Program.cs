@@ -24,6 +24,7 @@ namespace PracticeProgramsCSharp
             Console.WriteLine("1. Basic Programs ");
             Console.WriteLine("2. Data Type & Operation Programs");
             Console.WriteLine("3. Programs On Numbers");
+            Console.WriteLine("4. Date Time And Year Programs");
 
             int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -214,18 +215,7 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("13. Square Root of A number");
                     Console.WriteLine("14. Cube root of A number");
                     Console.WriteLine("15. Reverse A number");
-                    
-
-
-
-
-
-
-
-
-
-
-
+               
                     int numprogChoice = Convert.ToInt32(Console.ReadLine());
                     switch(numprogChoice)
                     {
@@ -289,11 +279,30 @@ namespace PracticeProgramsCSharp
                             Program_On_Numbers.TakeANumberAndReverseIt.logic();
                             break;
 
+                    }
+                    break;
 
+                case 4:
+                    Console.Clear();
+                    Console.WriteLine("1. Get local Time");
+                    Console.WriteLine("2. Get Universal Time");
+                    int DateTimeYearChoice = Convert.ToInt32(Console.ReadLine());
+
+                    switch(DateTimeYearChoice)
+                    {
+                        case 1:
+                            Date_Time_and_Year_Programs.GetTheLocalTime.logic();
+                            break;
+
+                        case 2:
+                            Date_Time_and_Year_Programs.GettheUniversalTime.logic();
+                            break;
 
 
                     }
+
                     break;
+                   
             }
         }
     }

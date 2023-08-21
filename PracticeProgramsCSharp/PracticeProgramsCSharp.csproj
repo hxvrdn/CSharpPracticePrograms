@@ -63,6 +63,8 @@
     <Compile Include="BasicPrograms\SumOfTwoBinarNumbers.cs" />
     <Compile Include="BasicPrograms\SwapTwoNumbers.cs" />
     <Compile Include="BasicPrograms\TakeANumberAndReverseIt.cs" />
+    <Compile Include="Date Time and Year Programs\GetTheLocalTime.cs" />
+    <Compile Include="Date Time and Year Programs\GettheUniversalTime.cs" />
     <Compile Include="Program On Numbers\AbsoluteValueOfANumber.cs" />
     <Compile Include="Program On Numbers\AmicableNumbers.cs" />
     <Compile Include="Program On Numbers\ArmstrongNumber.cs" />
@@ -94,7 +96,6 @@
     <Folder Include="Array Programs\" />
     <Folder Include="BitWise Operator Program\" />
     <Folder Include="ConversionPrograms\" />
-    <Folder Include="Date Time and Year Programs\" />
     <Folder Include="DSA Programs\" />
     <Folder Include="Event Handling Programs\" />
     <Folder Include="Exception Handling Programs\" />
