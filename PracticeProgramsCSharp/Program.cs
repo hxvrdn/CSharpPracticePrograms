@@ -208,7 +208,8 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("7. Print Armstrong Numbers");
                     Console.WriteLine("8. Sum of N Numbers");
                     Console.WriteLine("9. Print Natural Numbers in a Range");
-                    Console.WriteLine("10. Factors of a givrn number");
+                    Console.WriteLine("10. Factors of a given number");
+                    Console.WriteLine("11. Absolute of a given number");
 
 
 
@@ -257,6 +258,10 @@ namespace PracticeProgramsCSharp
 
                         case 10:
                             Program_On_Numbers.FactorsOfAGivenNumber.logic();
+                            break;
+
+                        case 11:
+                            Program_On_Numbers.AbsoluteValueOfANumber.logic();
                             break;
                     }
                     break;

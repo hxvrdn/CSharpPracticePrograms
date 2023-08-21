@@ -6,23 +6,23 @@ using System.Threading.Tasks;
 
 namespace PracticeProgramsCSharp.Program_On_Numbers
 {
-    class FactorsOfAGivenNumber
+    class AbsoluteValueOfANumber
     {
+
         public static void logic()
         {
         start:
             Console.Clear();
-            Console.WriteLine("Enter the number");
+            Console.WriteLine("Enter the Number");
             int num = Convert.ToInt32(Console.ReadLine());
+            int temp = num;
 
-            Console.WriteLine("Factors are:");
-            for (int i = 1; i <= num; i++)
+            if (num <0)
             {
-                if (num % i == 0)
-                {
-                    Console.Write(i + " ");
-                }
+                num = num * -1;
             }
+
+            Console.WriteLine("The absolute value of {0} is {1}", temp, num);
 
             Console.WriteLine("\n Press 1 To rerun the program \n Press 0 to Main Menu");
             int rerun = 0;
@@ -36,5 +36,4 @@ namespace PracticeProgramsCSharp.Program_On_Numbers
             }
         }
     }
-
 }
