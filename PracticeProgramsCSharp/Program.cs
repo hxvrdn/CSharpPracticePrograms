@@ -382,6 +382,8 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("1. Convert Binary to Decimal");
                     Console.WriteLine("2. Convert Decimal to Binary");
                     Console.WriteLine("3. Convert Decimal to HexaDecimal");
+                    Console.WriteLine("3. Convert HexaDecimal to Decimal");
+
 
 
                     int convChoice = Convert.ToInt32(Console.ReadLine());
@@ -399,6 +401,11 @@ namespace PracticeProgramsCSharp
                         case 3:
                             ConversionPrograms.DecimalToHexaDecimal.logic();
                             break;
+
+                        case 4:
+                            ConversionPrograms.HexaDecuimalToDecimal.logic();
+                            break;
+
                     }
 
 
