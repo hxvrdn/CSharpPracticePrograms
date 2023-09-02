@@ -340,7 +340,9 @@ namespace PracticeProgramsCSharp
                     Console.Clear();
                     Console.WriteLine("1. Print without Print Function");
                     Console.WriteLine("2. ATM Prompt");
-                    Console.WriteLine("2. My IP Address.");
+                    Console.WriteLine("3. My IP Address.");
+                    Console.WriteLine("4. User Authentication Example.");
+
 
 
                     int SpecChoice = Convert.ToInt32(Console.ReadLine());
@@ -360,6 +362,9 @@ namespace PracticeProgramsCSharp
                             Special_CSharp_Programs.GetMyIPAddress.logic();
                             break;
 
+                        case 4:
+                            Special_CSharp_Programs.UserAuthenticationexample.logic();
+                            break;
 
                     }
                     break;
