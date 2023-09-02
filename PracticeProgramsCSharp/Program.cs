@@ -26,6 +26,8 @@ namespace PracticeProgramsCSharp
             Console.WriteLine("3. Programs On Numbers");
             Console.WriteLine("4. Date Time And Year Programs");
             Console.WriteLine("5. Special Programs");
+            Console.WriteLine("6. Conversion Programs");
+
 
 
             int choice = Convert.ToInt32(Console.ReadLine());
@@ -373,6 +375,21 @@ namespace PracticeProgramsCSharp
                             break;
 
                     }
+                    break;
+
+                case 6:
+                    Console.Clear();
+                    Console.WriteLine("1. Convert Binary to Decimal");
+                    int convChoice = Convert.ToInt32(Console.ReadLine());
+
+                    switch(convChoice)
+                    {
+                        case 1:
+                            ConversionPrograms.BinaryToDecimal.logic();
+                            break;
+                    }
+
+
                     break;
             }
         }
