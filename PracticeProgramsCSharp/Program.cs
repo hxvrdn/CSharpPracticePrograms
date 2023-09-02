@@ -384,6 +384,7 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("3. Convert Decimal to HexaDecimal");
                     Console.WriteLine("4. Convert HexaDecimal to Decimal");
                     Console.WriteLine("5. Convert Celsius to Fahrenheit");
+                    Console.WriteLine("6. Convert Fahrenheit to Celsius");
 
 
 
@@ -409,6 +410,10 @@ namespace PracticeProgramsCSharp
 
                         case 5:
                             ConversionPrograms.CelsiusToFahreneit.logic();
+                            break;
+
+                        case 6:
+                            ConversionPrograms.FahrenheitToCelsius.logic();
                             break;
 
                     }

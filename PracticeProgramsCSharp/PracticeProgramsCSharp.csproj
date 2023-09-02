@@ -67,6 +67,7 @@
     <Compile Include="ConversionPrograms\CelsiusToFahreneit.cs" />
     <Compile Include="ConversionPrograms\DecimalToBinary.cs" />
     <Compile Include="ConversionPrograms\DecimalToHexaDecimal.cs" />
+    <Compile Include="ConversionPrograms\FahrenheitToCelsius.cs" />
     <Compile Include="ConversionPrograms\HexaDecuimalToDecimal.cs" />
     <Compile Include="Date Time and Year Programs\AddTwoDates.cs" />
     <Compile Include="Date Time and Year Programs\CompareTwodates.cs" />
