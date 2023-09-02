@@ -342,6 +342,8 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("2. ATM Prompt");
                     Console.WriteLine("3. My IP Address.");
                     Console.WriteLine("4. User Authentication Example.");
+                    Console.WriteLine("5. Stopwatch");
+
 
 
 
@@ -364,6 +366,10 @@ namespace PracticeProgramsCSharp
 
                         case 4:
                             Special_CSharp_Programs.UserAuthenticationexample.logic();
+                            break;
+
+                        case 5:
+                            Special_CSharp_Programs.StopwatchProgram.logic();
                             break;
 
                     }

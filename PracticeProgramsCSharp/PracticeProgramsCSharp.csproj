@@ -97,6 +97,7 @@
     <Compile Include="Special CSharp Programs\ATMProgram.cs" />
     <Compile Include="Special CSharp Programs\GetMyIPAddress.cs" />
     <Compile Include="Special CSharp Programs\PrintWithoutPrintfunction.cs" />
+    <Compile Include="Special CSharp Programs\StopwatchProgram.cs" />
     <Compile Include="Special CSharp Programs\UserAuthenticationexample.cs" />
   </ItemGroup>
   <ItemGroup>
