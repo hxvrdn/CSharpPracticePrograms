@@ -77,6 +77,8 @@
     <Compile Include="Date Time and Year Programs\GetTheLocalTime.cs" />
     <Compile Include="Date Time and Year Programs\GettheUniversalTime.cs" />
     <Compile Include="Date Time and Year Programs\LeapYearProgram.cs" />
+    <Compile Include="Pattern Programs\BinaryTree.cs" />
+    <Compile Include="Pattern Programs\PascalTriangle.cs" />
     <Compile Include="Program On Numbers\AbsoluteValueOfANumber.cs" />
     <Compile Include="Program On Numbers\AmicableNumbers.cs" />
     <Compile Include="Program On Numbers\ArmstrongNumber.cs" />
@@ -124,7 +126,6 @@
     <Folder Include="Misc Programs\" />
     <Folder Include="Networking Programs\" />
     <Folder Include="Operator Overloading Programs\" />
-    <Folder Include="Pattern Programs\" />
     <Folder Include="Programs on Delegates\" />
     <Folder Include="Programs on Functions\" />
     <Folder Include="Programs on games\" />

@@ -27,6 +27,8 @@ namespace PracticeProgramsCSharp
             Console.WriteLine("4. Date Time And Year Programs");
             Console.WriteLine("5. Special Programs");
             Console.WriteLine("6. Conversion Programs");
+            Console.WriteLine("7. Pattern Programs");
+
 
 
 
@@ -390,7 +392,7 @@ namespace PracticeProgramsCSharp
 
                     int convChoice = Convert.ToInt32(Console.ReadLine());
 
-                    switch(convChoice)
+                    switch (convChoice)
                     {
                         case 1:
                             ConversionPrograms.BinaryToDecimal.logic();
@@ -418,7 +420,25 @@ namespace PracticeProgramsCSharp
 
                     }
 
+                    break;
 
+                case 7:
+                    Console.Clear();
+                    Console.WriteLine("1. Pascal Triangle");
+
+                    int pattChoice = Convert.ToInt32(Console.ReadLine());
+
+                    switch (pattChoice)
+                    {
+                        case 1:
+                            Pattern_Programs.PascalTriangle.logic();
+                            break;
+
+                        case 2:
+                            Pattern_Programs.BinaryTree.logic();
+                            break;
+
+                    }
                     break;
             }
         }
