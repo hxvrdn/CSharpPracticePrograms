@@ -425,6 +425,8 @@ namespace PracticeProgramsCSharp
                 case 7:
                     Console.Clear();
                     Console.WriteLine("1. Pascal Triangle");
+                    Console.WriteLine("2. Binary Tree");
+
 
                     int pattChoice = Convert.ToInt32(Console.ReadLine());
 
@@ -435,7 +437,7 @@ namespace PracticeProgramsCSharp
                             break;
 
                         case 2:
-                            Pattern_Programs.BinaryTree.logic();
+                             Pattern_Programs.BinaryTree.logic();
                             break;
 
                     }

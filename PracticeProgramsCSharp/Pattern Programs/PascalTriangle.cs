@@ -11,6 +11,7 @@ namespace PracticeProgramsCSharp.Pattern_Programs
         public static void logic()
         {
         start:
+            Console.Clear();
             int[,] arr = new int[8, 8];
             Console.WriteLine("Pascal Triangle : ");
             for (int i = 0; i < 5; i++)
