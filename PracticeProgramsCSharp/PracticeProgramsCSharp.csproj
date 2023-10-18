@@ -77,6 +77,7 @@
     <Compile Include="Date Time and Year Programs\GetTheLocalTime.cs" />
     <Compile Include="Date Time and Year Programs\GettheUniversalTime.cs" />
     <Compile Include="Date Time and Year Programs\LeapYearProgram.cs" />
+    <Compile Include="GCD LCM HCF Programs\GCDofTwoNumbers.cs" />
     <Compile Include="Pattern Programs\BinaryTree.cs" />
     <Compile Include="Pattern Programs\Diamond.cs" />
     <Compile Include="Pattern Programs\FloydTriangle.cs" />
@@ -121,7 +122,6 @@
     <Folder Include="Event Handling Programs\" />
     <Folder Include="Exception Handling Programs\" />
     <Folder Include="File Handling Programs\" />
-    <Folder Include="GCD LCM HCF Programs\" />
     <Folder Include="Inheritance Programs\" />
     <Folder Include="Interface Programs\" />
     <Folder Include="Linq Programs\" />

@@ -28,6 +28,8 @@ namespace PracticeProgramsCSharp
             Console.WriteLine("5. Special Programs");
             Console.WriteLine("6. Conversion Programs");
             Console.WriteLine("7. Pattern Programs");
+            Console.WriteLine("8. GCD LCH HCF Programs");
+
 
 
 
@@ -458,6 +460,21 @@ namespace PracticeProgramsCSharp
                             Pattern_Programs.NumberTriangle.logic();
                             break;
 
+                    }
+                    break;
+
+
+                case 8:
+                    Console.Clear();
+                    Console.WriteLine("1. GCD of two numbers.");
+
+                    int gcdlcm_choice = Convert.ToInt32(Console.ReadLine());
+
+                    switch(gcdlcm_choice)
+                    {
+                        case 1:
+                            GCD_LCM_HCF_Programs.GCDofTwoNumbers.logic();
+                            break;
                     }
                     break;
             }
