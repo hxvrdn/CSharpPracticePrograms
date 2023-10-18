@@ -427,6 +427,8 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("1. Pascal Triangle");
                     Console.WriteLine("2. Binary Tree");
                     Console.WriteLine("3. Diamond Pattern");
+                    Console.WriteLine("4. Floyd's Triangle");
+
 
 
 
@@ -444,6 +446,10 @@ namespace PracticeProgramsCSharp
 
                         case 3:
                             Pattern_Programs.Diamond.logic();
+                            break;
+
+                        case 4:
+                            Pattern_Programs.FloydTriangle.logic();
                             break;
 
                     }
