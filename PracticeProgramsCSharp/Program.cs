@@ -426,6 +426,8 @@ namespace PracticeProgramsCSharp
                     Console.Clear();
                     Console.WriteLine("1. Pascal Triangle");
                     Console.WriteLine("2. Binary Tree");
+                    Console.WriteLine("3. Diamond Pattern");
+
 
 
                     int pattChoice = Convert.ToInt32(Console.ReadLine());
@@ -438,6 +440,10 @@ namespace PracticeProgramsCSharp
 
                         case 2:
                              Pattern_Programs.BinaryTree.logic();
+                            break;
+
+                        case 3:
+                            Pattern_Programs.Diamond.logic();
                             break;
 
                     }
