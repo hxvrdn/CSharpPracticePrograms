@@ -80,6 +80,7 @@
     <Compile Include="Pattern Programs\BinaryTree.cs" />
     <Compile Include="Pattern Programs\Diamond.cs" />
     <Compile Include="Pattern Programs\FloydTriangle.cs" />
+    <Compile Include="Pattern Programs\NumberTriangle.cs" />
     <Compile Include="Pattern Programs\PascalTriangle.cs" />
     <Compile Include="Program On Numbers\AbsoluteValueOfANumber.cs" />
     <Compile Include="Program On Numbers\AmicableNumbers.cs" />
