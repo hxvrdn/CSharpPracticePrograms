@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array Programs\LengthOfAnArray.cs" />
+    <Compile Include="Array Programs\ReverseAnArray.cs" />
     <Compile Include="BasicPrograms\ArithmeticOperations.cs" />
     <Compile Include="BasicPrograms\BinaryEquivalentOfAInteger.cs" />
     <Compile Include="BasicPrograms\ConverCharacterCasingToOpposite.cs" />
@@ -116,7 +118,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Array Programs\" />
     <Folder Include="BitWise Operator Program\" />
     <Folder Include="DSA Programs\" />
     <Folder Include="Event Handling Programs\" />

@@ -29,6 +29,7 @@ namespace PracticeProgramsCSharp
             Console.WriteLine("6. Conversion Programs");
             Console.WriteLine("7. Pattern Programs");
             Console.WriteLine("8. GCD LCH HCF Programs");
+            Console.WriteLine("9. Array Programs" );
 
 
 
@@ -477,6 +478,28 @@ namespace PracticeProgramsCSharp
                             break;
                     }
                     break;
+
+
+                case 9:
+                    Console.Clear();
+                    Console.WriteLine("1. Length Of an Array");
+                    Console.WriteLine("2. Reverse an Array");
+
+
+
+                    int arr_prgm = Convert.ToInt32(Console.ReadLine());
+
+                    switch (arr_prgm)
+                    {
+                        case 1:
+                            Array_Programs.LengthOfAnArray.logic();
+                            break;
+
+                        case 2:
+                            Array_Programs.ReverseAnArray.logic();
+                            break;
+                    }
+                    break;  
             }
         }
     }
