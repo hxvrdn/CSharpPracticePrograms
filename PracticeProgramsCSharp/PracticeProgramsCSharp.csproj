@@ -82,6 +82,8 @@
     <Compile Include="Date Time and Year Programs\GettheUniversalTime.cs" />
     <Compile Include="Date Time and Year Programs\LeapYearProgram.cs" />
     <Compile Include="GCD LCM HCF Programs\GCDofTwoNumbers.cs" />
+    <Compile Include="Matrix Programs\AdditionOfTwoMatrices.cs" />
+    <Compile Include="Matrix Programs\LargestElementInAMatrix.cs" />
     <Compile Include="Matrix Programs\SmallestElementInMatrix.cs" />
     <Compile Include="Pattern Programs\BinaryTree.cs" />
     <Compile Include="Pattern Programs\Diamond.cs" />

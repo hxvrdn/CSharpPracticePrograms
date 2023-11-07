@@ -518,6 +518,9 @@ namespace PracticeProgramsCSharp
                 case 10:
                     Console.Clear();    
                     Console.WriteLine(  "1. Smallest Element in a Matrix");
+                    Console.WriteLine("2. Largest Element in a Matrix");
+                    Console.WriteLine("3. Addition Of Two Matrices");
+
 
 
 
@@ -529,6 +532,16 @@ namespace PracticeProgramsCSharp
                         case 1:
 
                             Matrix_Programs.SmallestElementInMatrix.logic();
+                            break;
+
+                        case 2:
+
+                            Matrix_Programs.LargestElementInAMatrix.logic();
+                            break;
+
+                        case 3:
+
+                            Matrix_Programs.AdditionOfTwoMatrices.logic();
                             break;
 
 
