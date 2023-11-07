@@ -30,6 +30,8 @@ namespace PracticeProgramsCSharp
             Console.WriteLine("7. Pattern Programs");
             Console.WriteLine("8. GCD LCH HCF Programs");
             Console.WriteLine("9. Array Programs" );
+            Console.WriteLine("10. Matrix Programs");
+
 
 
 
@@ -511,7 +513,32 @@ namespace PracticeProgramsCSharp
                             Array_Programs.JaggedArrays.logic();
                             break;
                     }
-                    break;  
+                    break;
+
+                case 10:
+                    Console.Clear();    
+                    Console.WriteLine(  "1. Smallest Element in a Matrix");
+
+
+
+                    int mtxr_choice = Convert.ToInt32(Console.ReadLine());
+
+                    switch (mtxr_choice)
+                    {
+                        
+                        case 1:
+
+                            Matrix_Programs.SmallestElementInMatrix.logic();
+                            break;
+
+
+                        default:
+                            break;
+                    }
+
+                    break;
+
+;
             }
         }
     }
