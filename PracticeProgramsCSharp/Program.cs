@@ -485,6 +485,8 @@ namespace PracticeProgramsCSharp
                     Console.WriteLine("1. Length Of an Array");
                     Console.WriteLine("2. Reverse an Array");
                     Console.WriteLine("3. Lower and upper bounds an Array");
+                    Console.WriteLine("4. Jagged Array");
+
 
 
 
@@ -503,6 +505,10 @@ namespace PracticeProgramsCSharp
 
                         case 3:
                             Array_Programs.LowerBoundAndUpperBound.logic();
+                            break;
+
+                        case 4:
+                            Array_Programs.JaggedArrays.logic();
                             break;
                     }
                     break;  

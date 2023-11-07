@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array Programs\JaggedArrays.cs" />
     <Compile Include="Array Programs\LengthOfAnArray.cs" />
     <Compile Include="Array Programs\LowerBoundAndUpperBound.cs" />
     <Compile Include="Array Programs\ReverseAnArray.cs" />
