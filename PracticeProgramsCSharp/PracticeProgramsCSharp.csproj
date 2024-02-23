@@ -118,7 +118,10 @@
     <Compile Include="Special CSharp Programs\PrintWithoutPrintfunction.cs" />
     <Compile Include="Special CSharp Programs\StopwatchProgram.cs" />
     <Compile Include="Special CSharp Programs\UserAuthenticationexample.cs" />
+    <Compile Include="String Programs\AllSubStringsOfthestring.cs" />
     <Compile Include="String Programs\Concatinate2Strings.cs" />
+    <Compile Include="String Programs\LengthOfTheString.cs" />
+    <Compile Include="String Programs\TrimString.cs" />
     <Compile Include="String Programs\UpperCasetoLower.cs" />
   </ItemGroup>
   <ItemGroup>

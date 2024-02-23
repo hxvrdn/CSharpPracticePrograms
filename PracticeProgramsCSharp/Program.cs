@@ -557,6 +557,9 @@ namespace PracticeProgramsCSharp
                     Console.Clear();
                     Console.WriteLine("1. Concatinate two strings");
                     Console.WriteLine("2. UpperCase To lower case");
+                    Console.WriteLine("3. Trim String");
+                    Console.WriteLine("4. Length of the String");
+                    Console.WriteLine("5. All substrings of the String");
 
 
                     int str_choice = Convert.ToInt32(Console.ReadLine());
@@ -566,7 +569,16 @@ namespace PracticeProgramsCSharp
                             String_Programs.Concatinate2Strings.logic(); break;
 
                         case 2:
-                            String_Programs.UpperCaseToLower.logic(); break;    
+                            String_Programs.UpperCaseToLower.logic(); break; 
+
+                        case 3:
+                            String_Programs.TrimString.logic(); break;    
+
+                        case 4:
+                            String_Programs.LengthOfTheString.logic(); break;    
+                        
+                        case 5:
+                            String_Programs.AllSubStringsOfthestring.logic(); break;    
                     }
                     break;
             }
