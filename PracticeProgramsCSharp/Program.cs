@@ -556,12 +556,17 @@ namespace PracticeProgramsCSharp
                 case 11:
                     Console.Clear();
                     Console.WriteLine("1. Concatinate two strings");
+                    Console.WriteLine("2. UpperCase To lower case");
+
 
                     int str_choice = Convert.ToInt32(Console.ReadLine());
                     switch(str_choice)
                     {
                         case 1:
                             String_Programs.Concatinate2Strings.logic(); break;
+
+                        case 2:
+                            String_Programs.UpperCaseToLower.logic(); break;    
                     }
                     break;
             }

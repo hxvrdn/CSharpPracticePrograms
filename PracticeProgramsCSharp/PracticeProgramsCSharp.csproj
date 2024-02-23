@@ -119,6 +119,7 @@
     <Compile Include="Special CSharp Programs\StopwatchProgram.cs" />
     <Compile Include="Special CSharp Programs\UserAuthenticationexample.cs" />
     <Compile Include="String Programs\Concatinate2Strings.cs" />
+    <Compile Include="String Programs\UpperCasetoLower.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
