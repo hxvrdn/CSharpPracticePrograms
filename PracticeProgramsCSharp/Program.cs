@@ -31,6 +31,7 @@ namespace PracticeProgramsCSharp
             Console.WriteLine("8. GCD LCH HCF Programs");
             Console.WriteLine("9. Array Programs" );
             Console.WriteLine("10. Matrix Programs");
+            Console.WriteLine("11. String Manipulation Programs");
 
 
 
@@ -552,6 +553,17 @@ namespace PracticeProgramsCSharp
                     break;
 
 ;
+                case 11:
+                    Console.Clear();
+                    Console.WriteLine("1. Concatinate two strings");
+
+                    int str_choice = Convert.ToInt32(Console.ReadLine());
+                    switch(str_choice)
+                    {
+                        case 1:
+                            String_Programs.Concatinate2Strings.logic(); break;
+                    }
+                    break;
             }
         }
     }

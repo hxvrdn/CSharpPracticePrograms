@@ -118,6 +118,7 @@
     <Compile Include="Special CSharp Programs\PrintWithoutPrintfunction.cs" />
     <Compile Include="Special CSharp Programs\StopwatchProgram.cs" />
     <Compile Include="Special CSharp Programs\UserAuthenticationexample.cs" />
+    <Compile Include="String Programs\Concatinate2Strings.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -139,7 +140,6 @@
     <Folder Include="Programs on games\" />
     <Folder Include="Programs on Thread\" />
     <Folder Include="Sorting Programs\" />
-    <Folder Include="String Programs\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
