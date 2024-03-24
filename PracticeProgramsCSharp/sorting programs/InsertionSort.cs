@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PracticeProgramsCSharp.Sorting_Programs
 {
-    class LengthOfTheString
+    public class InsertionSort
     {
         public static void logic()
         {
@@ -55,3 +55,4 @@ namespace PracticeProgramsCSharp.Sorting_Programs
         }
 
     }
+}

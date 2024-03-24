@@ -32,6 +32,8 @@ namespace PracticeProgramsCSharp
             Console.WriteLine("9. Array Programs" );
             Console.WriteLine("10. Matrix Programs");
             Console.WriteLine("11. String Manipulation Programs");
+            Console.WriteLine("12. Sorting Programs");
+
 
 
 
@@ -449,7 +451,7 @@ namespace PracticeProgramsCSharp
                             break;
 
                         case 2:
-                             Pattern_Programs.BinaryTree.logic();
+                            Pattern_Programs.BinaryTree.logic();
                             break;
 
                         case 3:
@@ -474,7 +476,7 @@ namespace PracticeProgramsCSharp
 
                     int gcdlcm_choice = Convert.ToInt32(Console.ReadLine());
 
-                    switch(gcdlcm_choice)
+                    switch (gcdlcm_choice)
                     {
                         case 1:
                             GCD_LCM_HCF_Programs.GCDofTwoNumbers.logic();
@@ -517,8 +519,8 @@ namespace PracticeProgramsCSharp
                     break;
 
                 case 10:
-                    Console.Clear();    
-                    Console.WriteLine(  "1. Smallest Element in a Matrix");
+                    Console.Clear();
+                    Console.WriteLine("1. Smallest Element in a Matrix");
                     Console.WriteLine("2. Largest Element in a Matrix");
                     Console.WriteLine("3. Addition Of Two Matrices");
 
@@ -529,7 +531,7 @@ namespace PracticeProgramsCSharp
 
                     switch (mtxr_choice)
                     {
-                        
+
                         case 1:
 
                             Matrix_Programs.SmallestElementInMatrix.logic();
@@ -552,7 +554,7 @@ namespace PracticeProgramsCSharp
 
                     break;
 
-;
+                    ;
                 case 11:
                     Console.Clear();
                     Console.WriteLine("1. Concatinate two strings");
@@ -563,25 +565,44 @@ namespace PracticeProgramsCSharp
 
 
                     int str_choice = Convert.ToInt32(Console.ReadLine());
-                    switch(str_choice)
+                    switch (str_choice)
                     {
                         case 1:
                             String_Programs.Concatinate2Strings.logic(); break;
 
                         case 2:
-                            String_Programs.UpperCaseToLower.logic(); break; 
+                            String_Programs.UpperCaseToLower.logic(); break;
 
                         case 3:
-                            String_Programs.TrimString.logic(); break;    
+                            String_Programs.TrimString.logic(); break;
 
                         case 4:
-                            String_Programs.LengthOfTheString.logic(); break;    
-                        
-                        case 5:
-                            String_Programs.AllSubStringsOfthestring.logic(); break;    
+                            String_Programs.LengthOfTheString.logic(); break;
 
-                     
+                        case 5:
+                            String_Programs.AllSubStringsOfthestring.logic(); break;
+
+
                     }
+                    break;
+
+                case 12:
+                    Console.Clear();
+                    Console.WriteLine("1. Insertion Sort");
+                    Console.WriteLine("2. Selection Sort");
+
+                    int Sort_choice = Convert.ToInt32(Console.ReadLine());
+                    switch (Sort_choice)
+                    {
+                        case 1:
+                            Sorting_Programs.InsertionSort.logic(); break;
+
+                        case 2:
+                            Sorting_Programs.SelectionSort.logic(); break;
+
+                        default: break;
+                    }
+
                     break;
             }
         }
